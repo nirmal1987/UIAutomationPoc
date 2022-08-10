@@ -1,0 +1,13 @@
+com\ui\poc\test\automation\steps\CheckboxPageSteps.class
+com\ui\poc\test\automation\steps\AngularMaterialHomePageSteps.class
+com\ui\poc\test\automation\impl\AppAccess.class
+com\ui\poc\test\automation\config\ConfigProvider.class
+com\ui\poc\test\automation\steps\ComponentPageSteps.class
+com\ui\poc\test\automation\pages\CheckboxPage.class
+com\ui\poc\test\automation\pages\FormFieldPage.class
+com\ui\poc\test\automation\pages\AngularMaterialHomePage.class
+com\ui\poc\test\automation\runner\TestRunner.class
+com\ui\poc\test\automation\pages\CommonPage.class
+com\ui\poc\test\automation\steps\FormFieldPageSteps.class
+com\ui\poc\test\automation\pages\ComponentPage.class
+com\ui\poc\test\automation\steps\Hook.class

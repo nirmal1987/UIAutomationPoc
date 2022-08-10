@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="41.266">
+<testcase classname="Angular UI Components Feature" name="Validation of Checkbox Functionality" time="22.284">
+<system-out><![CDATA[Given User is on Angular UI materials home page.............................passed
+When User accepts cookies...................................................passed
+And User navigates to components page.......................................passed
+Then User validates that components home page is displayed..................passed
+When User navigates to "Checkbox" component from left navigation bar........passed
+Then User validates that user landed on component with title "Checkbox".....passed
+When User clicks the "Check me" checkbox....................................passed
+Then User validates that "Check me" checkbox is selected....................passed
+When User clicks the "Indeterminate" checkbox...............................passed
+Then User validates that "Indeterminate" checkbox is selected...............passed
+When User clicks the "Check me" checkbox....................................passed
+Then User validates that "Check me" checkbox is not selected................passed
+When User clicks the "Indeterminate" checkbox...............................passed
+Then User validates that "Indeterminate" checkbox is not selected...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Angular UI Components Feature" name="Validation of Form Field Functionality" time="18.531">
+<system-out><![CDATA[Given User is on Angular UI materials home page.............................passed
+When User accepts cookies...................................................passed
+And User navigates to components page.......................................passed
+Then User validates that components home page is displayed..................passed
+When User navigates to "Form field" component from left navigation bar......passed
+Then User validates that user landed on component with title "Form field"...passed
+When User enters text "Testing" in the input field..........................passed
+And User selects "Second option" from the dropdown..........................passed
+And User enters "UI Automation" in text area field..........................passed
+And User navigates to "api" tab.............................................passed
+Then User validates "api" page is displayed.................................passed
+And User navigates to "examples" tab........................................passed
+Then User validates "examples" page is displayed............................passed
+]]></system-out>
+</testcase>
+</testsuite>
